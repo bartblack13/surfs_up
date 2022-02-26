@@ -2,7 +2,7 @@
 Advance data storage and analysis - SQLite, SQLAlchemy, and Flask
 
 
-## Overview of the analysis: Explain the purpose of this analysis.
+## Overview
 The purpose of this project was to learn advance data storage and analysis techniques, specifically, by using SQLAlchemy to query SQLite databases, and then to display/transfer the results of those queries to a url (local) by using Flask.  This was done as part of my week 9 project for my DU Data Analytics Bootcamp.  The goals were as follows:
 * Explain the structures, interactions, and types of data of a provided dataset
 * Differentiate between SQLite and PostgreSQL databases
@@ -27,5 +27,5 @@ To do this, I helped W. Avy, a mock investor, by running data analytics on a wea
 
 ## Summary: Provide a high-level summary of the results and two additional queries that you would perform to gather more weather data for June and December.
 In consideration of investing in a surf shop on Oahu that also serves icecream, one could conclude that this is not a bad investment.  Obviously, Hawaii is known for it's surf culture.  The basic statitics, specifically the points mentioned aboce in the Results section, suggest that there is not much difference between June and December temperatures.  As expected, June had a higher miniumum temperature, but only a slightly higher maximum temperature.  The lack of difference in max temp was surprising.  However, the average temperatures for each month only differed by 4 degrees.  The statistics were calculated with similar numbers of data points, although june had a slightly higher sample number, but the standard deviation of each month was very close.  This suggests that the weather variation in December is close to the variation in June.  As expected, June is slightly warmer, but overall, both months would provide ample days to go surfing, and eat icecream. <br><br>
-To provide greater insight into the weather patterns for June and December, one could query the data for each month's precipitation records. and provide similar print outs of precipitaiton statistics.  
-Or you could compare the temperatures between the differnt weather stations and determine which area of Oahu might be a better place to open a shop, especially if there is a weather station that collects data very close to the beach, as opposed to inland.  This would give surfers more accurate weather info, if they checked the weather on their phones, for example, as they plan their surf trips.
+* To provide greater insight into the weather patterns for June and December, one could query the data for each month's precipitation records, and provide similar print outs of precipitaiton statistics.  While rainy weather might not seem ideal to go to the beach in, rainy weather would cause greater swells and larger waves, which would be better for surfing.<br><br>
+* Or one could compare the temperatures between the differnt weather stations and determine which area of Oahu might be a better place to open a shop, especially if there is a weather station that collects data very close to the beach, as opposed to inland.  This would give surfers more accurate weather info, if they checked the weather on their phones, for example, as they plan their surf trips.
