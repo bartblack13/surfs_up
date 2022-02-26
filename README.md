@@ -11,18 +11,19 @@ The purpose of this project was to learn advance data storage and analysis techn
 * Design a Flask application using data
 
 To do this, I helped W. Avy, a mock investor, by running data analytics on a weather dataset from the island of Oahu (where he is considering opening a surf shop and icecream store).  I was provided an sqlite file with 5 columns: id, weather station collecting the data, date of datapoint, precepitation score, and temperature observation.  The data consisted of multiple rows of data per day, ranging from the beginning of January 2010 through August 2017.  Once the basic analysis was performed by querying the data in jupyter notebook, I loaded the code into VS Code and developed a Flask application, with 5 routes, to display the data (see Figure 1).  The routes included: Welcome page with a list of available routes; Precipitation scores per date; List of Weather Stations; Monthly Temperature; and Statistics (min temp, average temp, and max temp for given dates).<br><br>
-![This is an image]()<br><br>
-** Figure 1 ** <br><br>
+![This is an image](https://github.com/bartblack13/surfs_up/blob/main/Resources/Flask%20code.png)<br><br>
+**Figure 1 - Flask code for select routes** <br><br>
 
 ## Results: Provide a bulleted list with three major points from the two analysis deliverables. Use images as support where needed.
 * Both June and December have similar weather statistics, including average temperatures, 74.9F and 71.0F, respectively (see Figure 2 and 3 below)
 * The minimum temperature observation for June was 8 degrees warmer than December (64.0F and 56.0F, respectively), but the maximum temperatures only varied by 2 degrees (85.0F and 83.0F, respectively)
 * The standard deviation of June with 1,700 oberservations was 3.257 , where that of December was 3.746, from 1,517 observations
 
-<br><br>![This is an image]()<br><br>
-** Figure 2 ** <br><br>
-![This is an image]()<br><br>
-** Figure 3 ** <br><br>
+<br><br>![This is an image](https://github.com/bartblack13/surfs_up/blob/main/Resources/June%20Temperature%20Statistics.png)<br><br>
+**Figure 2 - June Statistics** <br><br>
+![This is an image](
+https://github.com/bartblack13/surfs_up/blob/main/Resources/December%20Temperature%20Statistics.png)<br><br>
+**Figure 3 - December Statistics** <br><br>
 
 
 ## Summary: Provide a high-level summary of the results and two additional queries that you would perform to gather more weather data for June and December.
